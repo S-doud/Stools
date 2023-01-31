@@ -1,0 +1,16 @@
+syntax = "proto3";
+package order;
+option go_package = "./;message";
+
+service OrderService{
+  rpc QueryOrderInfo(QueryOrderRequest) returns (QueryOrderReply);
+}
+
+message QueryOrderRequest {
+  string order_id = 1;
+}
+
+message QueryOrderReply {
+  string result_code = 1;
+  string result_info = 2;
+}

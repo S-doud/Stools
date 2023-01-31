@@ -11,5 +11,5 @@ func main() {
 	}
 
 	toolFunc := toolMap[os.Args[1]]
-	toolFunc(os.Args[1:])
+	toolFunc(os.Args[2:])
 }

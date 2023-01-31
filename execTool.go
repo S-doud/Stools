@@ -7,5 +7,5 @@ var toolMap map[string]func(...interface{})
 func init() {
 	toolMap = make(map[string]func(...interface{}))
 
-	toolMap["protoc"] = proto.MakeProto
+	toolMap["-p"] = proto.MakeProto
 }
