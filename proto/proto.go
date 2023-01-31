@@ -14,6 +14,7 @@ func CheckExist() error {
 	return nil
 }
 
+//MakeProto 生成proto文件
 func MakeProto(...interface{}) {
 	err := CheckExist()
 	if err != nil {
