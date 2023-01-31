@@ -1,3 +1,3 @@
-module github.com/S-doud/tools
+module github.com/S-doud/Stools
 
 go 1.18

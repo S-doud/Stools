@@ -1,6 +1,6 @@
 package main
 
-import "github.com/S-doud/tools/proto"
+import "github.com/S-doud/Stools/proto"
 
 var toolMap map[string]func(...interface{})
 
